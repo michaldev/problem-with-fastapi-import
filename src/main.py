@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.rest import users
+from rest import users
 
 app = FastAPI()
 

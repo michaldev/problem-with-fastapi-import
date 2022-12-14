@@ -1,8 +1,6 @@
 from fastapi import APIRouter
 
-# from app.main import app
-from ..main import app
-# if I comment this, all works. But I need to use app in this file
+from main import app
 
 router = APIRouter()
 
